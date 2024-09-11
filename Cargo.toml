@@ -9,6 +9,7 @@ keywords = ["iterator", "cycle", "vec", "cursor", "linked-list"]
 categories = ["algorithms", "data-structures"]
 repository = "https://github.com/Passeriform/cycle_cursor.rs"
 homepage = "https://www.passeriform.com/prod/cycle_cursor.rs"
+documentation = "https://docs.rs/cycle_cursor/latest/cycle_cursor/"
 edition = "2021"
 exclude = [
     "/.github/",
