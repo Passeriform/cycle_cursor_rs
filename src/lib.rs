@@ -47,7 +47,7 @@ use std::ops::{Deref, DerefMut};
 /// # Examples
 /// ```
 /// # use cycle_cursor::CycleCursor;
-///
+/// #
 /// let source = vec![1, 2, 3, 4];
 /// let mut cycle_cursor = CycleCursor::from(source);
 ///
@@ -71,7 +71,7 @@ use std::ops::{Deref, DerefMut};
 ///
 /// ```
 /// # use cycle_cursor::CycleCursor;
-///
+/// #
 /// let source = vec![1, 2, 3, 4];
 /// let mut cycle_cursor = CycleCursor::from(source);
 ///
@@ -104,7 +104,7 @@ use std::ops::{Deref, DerefMut};
 /// ```
 /// # use std::panic;
 /// # use cycle_cursor::CycleCursor;
-///
+/// #
 /// let source = vec![1, 2, 3, 4];
 ///
 /// let mut cycle_cursor = CycleCursor::from(source);
@@ -181,7 +181,7 @@ impl<T> CycleCursor<T> {
     /// # Examples
     /// ```
     /// # use cycle_cursor::CycleCursor;
-    ///
+    /// #
     /// let source = vec![1, 2, 3, 4];
     ///
     /// let mut cycle_cursor = CycleCursor::from(source);
@@ -194,7 +194,7 @@ impl<T> CycleCursor<T> {
     ///
     /// ```
     /// # use cycle_cursor::CycleCursor;
-    ///
+    /// #
     /// let source: Vec<usize> = vec![];
     ///
     /// let cycle_cursor = CycleCursor::from(source);
@@ -224,7 +224,7 @@ impl<T> CycleCursor<T> {
     /// # Examples
     /// ```
     /// # use cycle_cursor::CycleCursor;
-    ///
+    /// #
     /// let source = vec![1, 2, 3, 4];
     ///
     /// let mut cycle_cursor = CycleCursor::from(source);
@@ -241,7 +241,7 @@ impl<T> CycleCursor<T> {
     ///
     /// ```
     /// # use cycle_cursor::CycleCursor;
-    ///
+    /// #
     /// let source: Vec<usize> = vec![];
     ///
     /// let mut cycle_cursor = CycleCursor::from(source);
