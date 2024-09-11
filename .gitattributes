@@ -1,0 +1,6 @@
+# Default behavior
+* text=auto
+
+# Binary files to be excluded from eol normalization.
+*.png binary
+*.jpg binary
