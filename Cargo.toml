@@ -5,16 +5,16 @@ version = "0.1.0"
 license-file = "LICENSE"
 readme = "README.md"
 authors = ["Utkarsh Bhardwaj (Passeriform) <passeriform.ub@gmail.com>"]
-keywords = ["iter", "iterator", "cycle", "cyclic", "vec", "hash", "set", "prev", "next", "double", "linked", "list"]
+keywords = ["iterator", "cycle", "vec", "cursor", "linked-list"]
 categories = ["algorithms", "data-structures"]
 repository = "https://github.com/Passeriform/cycle_cursor.rs"
 homepage = "https://www.passeriform.com/prod/cycle_cursor.rs"
 edition = "2021"
 exclude = [
-  "/.github/",
-  "/ci/",
-  "/benchsuite/",
-  "/scripts/",
+    "/.github/",
+    "/ci/",
+    "/benchsuite/",
+    "/scripts/",
 ]
 
 [badges]
